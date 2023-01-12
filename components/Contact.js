@@ -14,6 +14,7 @@ const Contact = () => {
 						name='name'
 						placeholder='Name'
 						className='p-2 bg-transparent border-2 rounded-md focus:outline-none'
+						required
 					/>
 					<input
 						type='text'
@@ -26,6 +27,7 @@ const Contact = () => {
 						placeholder='Message'
 						rows='10'
 						className='p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none'
+						required
 					/>
 					<button
 						type='submit'
