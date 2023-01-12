@@ -4,7 +4,8 @@ import Title from './Title';
 
 const Timeline = () => {
 	return (
-		<div className='flex flex-col md:flex-row justify-center my-20'>
+		// change margin to my-20 when you add projects
+		<div className='flex flex-col md:flex-row justify-center mt-5 mb-20'>
 			<div className='w-full md:w-7/12'>
 				<Title>Timeline</Title>
 				{timeline.map(item => (

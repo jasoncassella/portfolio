@@ -3,16 +3,16 @@ export default [
 	{
 		year: 'Today',
 		title: 'Freelance Web Developer',
-		duration: '4 years',
+		duration: '1 year',
 		details:
-			'Increased traffic and enhanced page ranking by providing server side rendering for local businesses websites using next.js',
+			'Increased traffic and enhanced page ranking by providing server side rendering for local businesses websites. Tech stack consisted of React, Next.js, and TailwindCSS.',
 	},
 	{
 		year: '2022',
-		title: 'Web Developer',
+		title: 'Web Developer at Virtual Realms',
 		duration: '2 years',
 		details:
-			'Managed all web development (UI/UX Design, DevOps, Front End, Back End) for the website of a Virtual Reality arcade shop. ',
+			'Managed all web development (UI/UX Design, DevOps, Front End, Back End) for the website of a Virtual Reality arcade shop. Tech stack consisted of HTML, CSS, and Javascript.',
 	},
 	{
 		year: '2020',

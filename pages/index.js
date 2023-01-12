@@ -79,7 +79,7 @@ export default function Home() {
 				<div className='bg-white dark:bg-stone-900 text-stone-850 dark:text-stone-300 min-h-screen'>
 					<div className='max-w-5xl w-11/12 mx-auto'>
 						<Intro />
-						<Portfolio />
+						{/* <Portfolio /> */}
 						<Timeline />
 						<Contact />
 						<Footer />
