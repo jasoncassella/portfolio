@@ -2,13 +2,13 @@
 export default [
 	{
 		title: 'Project 1',
-		imgUrl: 'http://placekitten.com/200/200',
+		imgUrl: 'https://dummyimage.com/200x200',
 		stack: ['React', 'Next.js', 'Tailwind'],
 		link: 'https://github.com/jasoncassella',
 	},
 	{
 		title: 'Project 2',
-		imgUrl: 'http://placeskull.com/200/200',
+		imgUrl: 'https://dummyimage.com/200x200',
 		stack: ['React', 'Next.js', 'Tailwind'],
 		link: 'https://github.com/jasoncassella',
 	},

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const PortfolioItem = ({ title, imgUrl, stack, link}) => {
 	return (
 		<a
@@ -5,11 +7,12 @@ const PortfolioItem = ({ title, imgUrl, stack, link}) => {
 			target='_blank'
 			rel='noopener noreferrer'
 			className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'>
-			<img
+			<Image src={imgUrl} alt='portfolio thumbnail' className='w-full h-36 md:h-48 object-cover cursor-pointer' width={200} height={200}></Image>
+			{/* <img
 				src={imgUrl}
 				alt='portfolio thumbnail'
 				className='w-full h-36 md:h-48 object-cover cursor-pointer'
-			/>
+			/> */}
 			<div className='w-full p-4'>
 				<h3 className='text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold'>
 					{title}
