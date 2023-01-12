@@ -9,7 +9,7 @@ export default [
 	},
 	{
 		year: '2022',
-		title: 'Web Developer at Virtual Realms',
+		title: 'Web Developer',
 		duration: '2 years',
 		details:
 			'Managed all web development (UI/UX Design, DevOps, Front End, Back End) for the website of a Virtual Reality arcade shop. Tech stack consisted of HTML, CSS, and Javascript.',
